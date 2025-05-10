@@ -29,15 +29,15 @@ The **Semantic Search Platform** is a web-based application designed to provide 
 ## Project Structure
 
 Semantic-Search-Platform/
-├── app.py # Main Streamlit app file
-├── file_parser.py # Functions for extracting text from PDF and TXT files
-├── embedding.py # Functions to generate embeddings for documents
-├── search.py # Functions for performing semantic search
-├── qa.py # Functions for question answering
-├── utils.py # Utility functions (e.g., for highlighting keywords)
-├── requirements.txt # List of dependencies
-├── Dockerfile # Docker configuration file
-└── .gitignore # Git ignore file for unwanted files/folders
+- app.py # Main Streamlit app file
+- file_parser.py # Functions for extracting text from PDF and TXT files
+- embedding.py # Functions to generate embeddings for documents
+- search.py # Functions for performing semantic search
+- qa.py # Functions for question answering
+- utils.py # Utility functions (e.g., for highlighting keywords)
+- requirements.txt # List of dependencies
+- Dockerfile # Docker configuration file
+- .gitignore # Git ignore file for unwanted files/folders
 
 
 ## 🔧 Installation
@@ -50,20 +50,14 @@ Semantic-Search-Platform/
 
 Create a virtual environment:
 
-```python -m venv .venv
-```
+python -m venv .venv
+
 Activate the virtual environment:
 
-```.\.venv\Scripts\activate
-```
+.\.venv\Scripts\activate
+
 Install the dependencies:
 
-```pip install -r requirements.txt
-```
+pip install -r requirements.txt
+
 Running the Application
-
-```streamlit run app.py
-```
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
